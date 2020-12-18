@@ -1,3 +1,35 @@
 #About, #Projects, #Contact{
   height:1000px;
 }
+
+body{
+  background-color: #DDDDDD;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+ul li {
+  display:inline-block;
+  font-size: 2em;
+  padding: 1.5%;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  background-color: rgba(255,255,255,0.7);
+}
+
+header h1 {
+  width: 70%;
+  padding: 0 0 0 2%;
+}
+
+nav{
+  width: 30%;
+}
