@@ -6,21 +6,23 @@
     <meta name = "viewport" content = "width=device-width, initial-scale =1">
 
     <link rel = "stylesheet" href = "index.css"/>
+    <script src = "index.js"></script>
     <title> Banurekha's Portfolio</title>
   </head>
   <body>
     <div class = "portfolio-container">
       <header>
-        <h1> Banurekha's Portfolio </h1>
+        <h1> BANUREKHA MOHAN </h1>
         <nav>
           <ul>
-            <li> <a href = "#About">About</a> </li>
-            <li> <a href = "#Projects">Projects</a> </li>
-            <li> <a href = "#Contact">Contact</a> </li>
+            <li> <a href = "#About" onclick = "toggleSection(event)">About</a> </li>
+            <li> <a href = "#Projects" onclick = "toggleSection(event)">Projects</a> </li>
+            <li> <a href = "#Contact" onclick = "toggleSection(event)">Contact</a> </li>
           </ul>
         </nav>
       </header>
-      <section class = "About" id = "About" >
+
+      <section class = "About show" id = "About">
         <ul class = "about-details">
           <li class = "about-grid">
             <img class = "about-img" src = "img/img1.jpg" alt = "Cambridge King's college"/>
@@ -67,10 +69,11 @@
           </li>
         </ul>
       </section>
-      <section class = "Projects" id = "Projects" >
+
+      <section class = "Projects hide" id = "Projects" >
         Projects
       </section>
-      <section class = "Contact" id = "Contact" >
+      <section class = "Contact hide" id = "Contact">
         Contact
       </section>
       <footer></footer>
