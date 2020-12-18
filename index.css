@@ -1,26 +1,16 @@
+
+
 #About, #Projects, #Contact{
   height:1000px;
 }
 
 body{
   background-color: #DDDDDD;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-ul li {
-  display:inline-block;
-  font-size: 2em;
-  padding: 1.5%;
-}
-
-ul li a {
-  text-decoration: none;
+  font-family: monospace;
 }
 
 header{
+  width:100%;
   display: flex;
   background-color: rgba(255,255,255,0.7);
 }
@@ -30,6 +20,36 @@ header h1 {
   padding: 0 0 0 2%;
 }
 
-nav{
+header>nav{
   width: 30%;
+}
+
+header>nav>ul {
+  list-style-type: none;
+}
+
+header>nav>ul>li {
+  display:inline-block;
+  font-size: 2em;
+  padding: 1.5%;
+}
+
+header>nav>ul>li>a {
+  text-decoration: none;
+}
+
+.about-details{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.about-details li{
+  width:24%;
+  display:inline-block;
+  list-style-type: none;
+}
+
+.about-details li img{
+  width:100%;
 }
