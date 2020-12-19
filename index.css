@@ -1,6 +1,4 @@
-
-
-#About, #Projects, #Contact{
+#About, #Contact{
   height:1000px;
 }
 
@@ -26,10 +24,11 @@ header>nav{
 
 header>nav>ul {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header>nav>ul>li {
-  display:inline-block;
   font-size: 2em;
   padding: 1.5%;
 }
@@ -38,16 +37,18 @@ header>nav>ul>li>a {
   text-decoration: none;
 }
 
+/*****************About page************************/
 .about-details{
   width: 100%;
   margin: 0px;
   padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-grid{
-  width:24%;
+  width:25%;
   position: relative;
-  display:inline-block;
   list-style-type: none;
 }
 
@@ -93,5 +94,34 @@ header>nav>ul>li>a {
 }
 
 .hide{
-  display: none;
+  display: none !important;
+}
+
+/*****************Projects page************************/
+#Projects{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #2c343b;
+}
+
+.Project-grid-3{
+  width: 27%;
+}
+
+.Project-grid-2{
+  width: 45%;
+}
+
+.Project-grid-3, .Project-grid-2{
+  height:200px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.8);
+  margin: 1%;
+  padding: 1%;
+}
+
+.Project-grid-3 a{
+  text-decoration: none;
 }
