@@ -154,3 +154,19 @@ header>nav>ul>li>a {
   margin: 1%;
   height: 4em;
 }
+
+/****Footer******/
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a{
+  width: 3em;
+  margin: 1%;
+}
+
+footer img{
+  width:100%;
+}
