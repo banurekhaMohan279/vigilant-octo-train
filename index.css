@@ -173,7 +173,7 @@ footer img{
 
 /*****Media queries *******/
 /*Tablet*/
-@media only screen and (min-width:401px) and (max-width:960px){
+@media only screen and (min-width:421px) and (max-width:960px){
   .about-grid{
     width:50%;
   }
@@ -188,7 +188,7 @@ footer img{
 }
 
 /*Mobile*/
-@media only screen and (max-width:400px){
+@media only screen and (max-width:420px){
   .about-grid{
     width:100%;
   }
