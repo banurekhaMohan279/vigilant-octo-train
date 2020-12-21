@@ -2,13 +2,14 @@
   height:1000px;
 }
 
-a, a:visited, a:hover, a:active{
+a, a:visited, a:active{
   color: inherit;
 }
 
 body{
   background-color: #DDDDDD;
   font-family: monospace;
+  margin: 0px;
 }
 
 header{
@@ -19,14 +20,19 @@ header{
 
 header h1 {
   width: 70%;
+  font-size: 3em;
+  font-weight: 100;
   padding: 0 0 0 2%;
 }
 
 header>nav{
   width: 30%;
+  display: flex;
+  align-items: center;
 }
 
 header>nav>ul {
+  width: 100%;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
