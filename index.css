@@ -18,6 +18,10 @@ header{
   background-color: rgba(255,255,255,0.7);
 }
 
+.hamburger{
+  display: none;
+}
+
 header h1 {
   width: 70%;
   font-size: 3em;
@@ -212,4 +216,26 @@ footer img{
   .Project-grid-2{
     width: 100%;
   }
+
+  .hamburger{
+    display: block;
+    position: absolute;
+    right: 5%;
+  }
+
+  .header-nav{
+    position: absolute;
+    display: none;
+    top: 2%;
+    right: 10%;
+  }
+
+  .hamburger:active+.header-nav{
+    display: block;
+  }
+
+  .header-nav>ul>li{
+    font-size: 1.5em;
+  }
+
 }
