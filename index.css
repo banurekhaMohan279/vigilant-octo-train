@@ -18,8 +18,12 @@ header{
   background-color: rgba(255,255,255,0.7);
 }
 
-.hamburger{
+#main-menu-toggle{
   display: none;
+}
+
+#main-menu-close{
+  display:none;
 }
 
 header h1 {
@@ -217,24 +221,34 @@ footer img{
     width: 100%;
   }
 
-  .hamburger{
+  #main-menu-toggle{
     display: block;
     position: absolute;
     right: 5%;
   }
 
-  .header-nav{
+  #main-menu{
     position: absolute;
     display: none;
     top: 2%;
     right: 10%;
   }
 
-  .hamburger:active+.header-nav{
+  #main-menu-close{
+    position: absolute;
+    right: -15%;
+    top: 15%;
+  }
+
+  #main-menu-toggle:target+#main-menu{
     display: block;
   }
 
-  .header-nav>ul>li{
+  #main-menu-toggle:target+#main-menu>#main-menu-close{
+    display:block;
+  }
+
+  #main-menu>ul>li{
     font-size: 1.5em;
   }
 
