@@ -230,6 +230,10 @@ footer img{
     width: 100%;
   }
 
+  header h1 {
+    font-size: 2em;
+  }
+
   #main-menu-toggle{
     display: block;
     position: absolute;
@@ -237,6 +241,7 @@ footer img{
   }
 
   #main-menu{
+    z-index:1;
     position: absolute;
     display: none;
     top: 2%;
@@ -249,11 +254,11 @@ footer img{
     top: 15%;
   }
 
-  #main-menu-toggle:active+#main-menu{
+  #main-menu:target{ /* apply target pseudo cls on the elt to target*/
     display: block;
   }
 
-  #main-menu-toggle:active+#main-menu>#main-menu-close{
+  #main-menu:target #main-menu-close{
     display:block;
   }
 
