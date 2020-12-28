@@ -68,6 +68,10 @@ header h1 {
   flex-wrap: wrap;
 }
 
+.about-details li {
+  cursor: pointer;
+}
+
 .about-grid{
   width:25%;
   position: relative;
