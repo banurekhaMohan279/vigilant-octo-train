@@ -187,6 +187,10 @@ header>h1>a{
   font-size: 1em;
 }
 
+.contact-form img{
+  width: 100%;
+}
+
 /****Footer******/
 footer{
   display: flex;
