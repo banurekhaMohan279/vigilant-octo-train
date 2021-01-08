@@ -180,15 +180,26 @@ header>h1>a{
   padding: 2%;
 }
 
-.contact-form input, .contact-form label{
-  width:80%;
+.contact-form p, .contact-form a{
+  width: 100%;
   margin: 1%;
   height: 4em;
   font-size: 1em;
+  text-decoration: none;
+}
+
+.contact-form div{
+  padding: 2%;
+  border: 1px solid #000;
+  text-decoration: none;
+}
+
+.contact-form div:active, .contact-form div:hover{
+  background-color: #eae8e8;
 }
 
 .contact-form img{
-  width: 100%;
+  max-width: 100%;
 }
 
 /****Footer******/
