@@ -1,6 +1,6 @@
-# vigilant-octo-train - Portfolio
+# Portfolio
 
-[Demo Here](https://banurekhamohan279.github.io/vigilant-octo-train/)
+[Demo Here](https://banurekhamohan279.github.io/portfolio/)
 
 # Tech stack
 - HTML5
