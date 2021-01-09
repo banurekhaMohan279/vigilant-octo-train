@@ -248,7 +248,7 @@ footer img{
   }
 }
 
-/*Mobile*/
+/*Mobile + bigger width*/
 @media only screen and (max-width:725px){
   .about-grid{
     width:100%;
@@ -269,15 +269,16 @@ footer img{
   #main-menu-toggle{
     display: block;
     position: absolute;
-    right: 5%;
-    margin: 3%;
+    right: 2%;
+    top: 2%;
   }
 
   #main-menu{
     z-index:1;
     position: absolute;
     display: none;
-    top: 5%;
+    padding: 5%;
+    top: 7%;
     right: 10%;
     background: rgba(255,255,255,0.7);
   }
