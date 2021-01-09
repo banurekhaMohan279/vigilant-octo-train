@@ -3,7 +3,7 @@ document.onreadystatechange = function() {
                 document.querySelector(
                   "#portfolio-container").style.visibility = "hidden";
                 document.querySelector(
-                  "#loader").style.visibility = "visible";
+                  "#loader").style.display = "block";
             } else {
                 document.querySelector(
                   "#loader").style.display = "none";
