@@ -190,8 +190,10 @@ header>h1>a{
 
 .contact-form div{
   padding: 2%;
+  margin: 2%;
   border: 1px solid #000;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .contact-form div:active, .contact-form div:hover{
