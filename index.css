@@ -220,7 +220,7 @@ footer img{
 
 /*****Media queries *******/
 /*Tablet*/
-@media only screen and (min-width:431px) and (max-width:960px){
+@media only screen and (min-width:511px) and (max-width:960px){
   .about-grid{
     width:50%;
   }
@@ -242,8 +242,14 @@ footer img{
 
 }
 
+@media only screen and (max-width:510px){
+  header h1 {
+    font-size: 2em;
+  }
+}
+
 /*Mobile*/
-@media only screen and (max-width:430px){
+@media only screen and (max-width:725px){
   .about-grid{
     width:100%;
   }
@@ -258,10 +264,6 @@ footer img{
   .Project-grid-2{
     width: 80%;
     height: 100%;
-  }
-
-  header h1 {
-    font-size: 2em;
   }
 
   #main-menu-toggle{
