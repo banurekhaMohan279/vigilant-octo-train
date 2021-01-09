@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 #About, #Projects, #Contact{
@@ -286,6 +287,8 @@ footer img{
 
   #main-menu{
     width: 20%;
+    padding: 5%;
+    font-size: 0.8em;
   }
 }
 
@@ -322,7 +325,6 @@ footer img{
     z-index:1;
     position: absolute;
     display: none;
-    padding: 5%;
     top: 6%;
     right: 4%;
     background: rgba(255,255,255,0.7);
