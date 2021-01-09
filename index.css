@@ -292,6 +292,11 @@ footer img{
   #main-menu>ul{
     padding: 5%;
     margin: 5%;
+    text-align: center;
+  }
+
+  #main-menu>ul>li{
+    width: 100%;
   }
 
   #main-menu-close{
