@@ -12,7 +12,7 @@ a, a:visited, a:active{
 
 body{
   background-color: #DDDDDD;
-  font-family: monospace;
+  font-family: monospace, system-ui, Helvetica, Arial, sans-serif ;
   margin: 0px;
 }
 
@@ -291,6 +291,10 @@ footer img{
 
 /*Mobile + bigger width*/
 @media only screen and (max-width:725px){
+  header h1 {
+    font-size: 2em;
+  }
+  
   .about-grid{
     width:100%;
   }
