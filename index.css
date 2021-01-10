@@ -5,6 +5,7 @@ html {
 
 #About, #Projects, #Contact{
   height:100%;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 a, a:visited, a:active{
