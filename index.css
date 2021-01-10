@@ -5,6 +5,22 @@ html {
   overflow-x: hidden;
 }
 
+a, a:visited, a:active{
+  color: inherit;
+}
+
+body{
+  background-color: #bfbfbf;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+
+header{
+  width:100%;
+  display: flex;
+  background-color: rgba(255,255,255,0.7);
+}
+
 #About, #Projects, #Contact{
   height:100%;
   animation: 1s ease-out 0s 1 dimOut;
@@ -39,22 +55,6 @@ html {
     100% {
         transform: rotate(360deg);
     }
-}
-
-a, a:visited, a:active{
-  color: inherit;
-}
-
-body{
-  background-color: #DDDDDD;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0px;
-}
-
-header{
-  width:100%;
-  display: flex;
-  background-color: rgba(255,255,255,0.7);
 }
 
 #main-menu-toggle{
@@ -179,7 +179,6 @@ header>h1>a{
 }
 
 .Project-grid-3, .Project-grid-2{
-  height:200px;
   cursor: pointer;
   background: rgba(255,255,255,0.8);
   margin: 1%;
@@ -192,7 +191,7 @@ header>h1>a{
 }
 
 .Project-grid-3 p, .Project-grid-2 p{
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .Project-grid-3 a, .Project-grid-2 a{
@@ -218,7 +217,7 @@ header>h1>a{
   width: 100%;
   margin: 1%;
   height: 4em;
-  font-size: 1em;
+  font-size: 1.3em;
   text-decoration: none;
 }
 
