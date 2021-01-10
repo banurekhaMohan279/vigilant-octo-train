@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -45,7 +47,7 @@ a, a:visited, a:active{
 
 body{
   background-color: #DDDDDD;
-  font-family: monospace, system-ui, Helvetica, Arial, sans-serif ;
+  font-family: 'Open Sans', sans-serif;
   margin: 0px;
 }
 
@@ -66,7 +68,6 @@ header{
 header h1 {
   width: 60%;
   font-size: 2.5em;
-  font-weight: 100;
   padding: 0 0 0 2%;
 }
 
