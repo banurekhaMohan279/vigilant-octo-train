@@ -319,6 +319,15 @@ footer img{
     top: 2.5%;
   }
 
+  @keyframes slideFromTop{
+    0%{
+      transform: scaleY(0);
+    }
+    100%{
+      transform: scaleY(1);
+    }
+  }
+
   #main-menu{
     z-index:1;
     position: absolute;
@@ -326,6 +335,7 @@ footer img{
     top: 6%;
     right: 4%;
     background: rgba(255,255,255,0.7);
+    animation: 0.5s ease-out 0s 1 slideFromTop;
   }
 
   #main-menu>ul{
