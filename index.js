@@ -16,7 +16,7 @@ function toggleSection(event){
     selectedElt.classList.remove('hide');
     selectedElt.classList.add('show');
   }
-  let allElts = ['About','Projects','Contact'];
+  let allElts = ['About','Contact'];
   let otherElts = allElts.filter(item => item!==currentTab);
   for(let item of otherElts){
     let otherElt = document.getElementById(item);
