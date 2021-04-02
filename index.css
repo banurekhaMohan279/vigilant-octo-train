@@ -37,9 +37,9 @@ header{
 
 /**** Loader styles ****/
 #loader {
-    border: 12px solid #f3f3f3;
+    border: 3px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 12px solid #827b7b;
+    border-top: 3px solid #827b7b;
     width: 70px;
     height: 70px;
     position: absolute;
