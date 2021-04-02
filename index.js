@@ -1,12 +1,12 @@
-document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector("#portfolio-container").style.display = "none";
-                document.querySelector("#loader").style.display = "block";
-            } else {
-                document.querySelector("#loader").style.display = "none";
-                document.querySelector("#portfolio-container").style.display = "block";
-            }
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector("#portfolio-container").style.display = "none";
+    document.querySelector("#loader").style.display = "block";
   };
+
+  window.onload = function() {
+    document.querySelector("#loader").style.display = "none";
+    document.querySelector("#portfolio-container").style.display = "block";
+  }
 
 function toggleSection(event){
   let currentTab = event.target.text;
