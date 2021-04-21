@@ -39,7 +39,7 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+  <!--* [Installation](#installation)-->
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -77,23 +77,6 @@ Download or clone the project repository to your local folder.
 
 There are no prerequisites for this project. All the necessary links and scripts are added in the project itself.
 
-<!---### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';--->
-```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -112,7 +95,6 @@ Your name in the Header should also be changed here:
 See the [open issues](https://github.com/banurekhaMohan279/Banurekha-Mohan-Portfolio/issues) for a list of proposed features (and known issues).
 
 
-
 <!-- CONTRIBUTING -->
 ## 🤝 Contributing
 
@@ -125,21 +107,18 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
 <!-- LICENSE -->
 ## 📝 License
-Describe your License for your project. 
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
 
 
 <!-- CONTACT -->
 ## 📫 Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Banurekha Mohan - [@your_twitter](https://twitter.com/banurekha279) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/banurekhaMohan279/Banurekha-Mohan-Portfolio](https://github.com/banurekhaMohan279/Banurekha-Mohan-Portfolio)
 
 
 
@@ -148,10 +127,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* blah blah blah....
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
