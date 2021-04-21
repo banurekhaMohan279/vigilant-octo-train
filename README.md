@@ -116,7 +116,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## 📫 Contact
 
-Banurekha Mohan - [@your_twitter](https://twitter.com/banurekha279) - email@example.com
+Twitter - [@banurekha279](https://twitter.com/banurekha279) / Email - <a href="mailto:banurekha279@gmail.com">banurekha279@gmail.com</a> 
 
 Project Link: [https://github.com/banurekhaMohan279/Banurekha-Mohan-Portfolio](https://github.com/banurekhaMohan279/Banurekha-Mohan-Portfolio)
 
