@@ -180,7 +180,11 @@ header>h1>a{
 }
 
 .Project-grid-3{
-  width: 27%;
+  width: 45%;
+}
+
+.Project-grid-3 img{
+  width:100%;
 }
 
 .Project-grid-2{
