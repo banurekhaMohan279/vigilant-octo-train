@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 
 html {
   scroll-behavior: smooth;
@@ -19,6 +19,14 @@ header{
   width:100%;
   display: flex;
   background-color: rgba(255,255,255,0.7);
+}
+
+#portfolio-container{
+  display: none;
+}
+
+#loader{
+  display: block;
 }
 
 #About, #Projects, #Contact{
